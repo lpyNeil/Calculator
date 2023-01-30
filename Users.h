@@ -15,6 +15,7 @@ class Calculator {
 public:
 	Calculator() {
 		set_title("Calculator");
+		cls();
 		input();
 	}
 	inline void input() {
